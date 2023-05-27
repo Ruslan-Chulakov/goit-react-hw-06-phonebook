@@ -8,7 +8,8 @@ import css from './ContactList.module.css';
 function ContactList() {
   const filter = useSelector(getFilterValue);
   const contacts = useSelector(getContacts);
-  const contactsToShow = () => {
+
+  function contactsToShow() {
     if (filter === '') {
       return contacts;
     }

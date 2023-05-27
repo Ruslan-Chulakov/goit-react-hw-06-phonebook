@@ -16,7 +16,6 @@ const Filter = () => {
         <input
           type="text"
           name="filter"
-          // value={value}
           onChange={handleChange}
           className={clsx(css.input)}
         />

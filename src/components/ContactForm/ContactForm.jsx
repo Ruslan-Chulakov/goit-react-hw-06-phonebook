@@ -3,8 +3,8 @@ import clsx from 'clsx';
 import { Notify } from 'notiflix';
 import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from 'redux/contactsSlice';
-import css from './ContactForm.module.css';
 import { getContacts } from 'redux/selectors';
+import css from './ContactForm.module.css';
 
 const ContactForm = () => {
   const contacts = useSelector(getContacts);

@@ -8,6 +8,7 @@ import css from './App.module.css';
 
 export const App = () => {
   const contacts = useSelector(getContacts)
+  
   return (
     <div className={clsx(css.container)}>
       <span className={clsx(css.titleSpan)}>
